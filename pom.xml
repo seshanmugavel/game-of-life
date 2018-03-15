@@ -27,7 +27,7 @@
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
     <build>
-        <finalName>${artifactId}-${version}${build.number}</finalName>
+        <finalName>${project.artifactId}-${project.version}${build.number}</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
